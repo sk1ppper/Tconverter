@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         didSet {
             slider.maximumValue = 122
             slider.minimumValue = 1
-            slider.value = 62
+            slider.value = 33
             celsiusLabel.text = "\(Int(slider.value))ºC"
             fahrengeitLabel.text = "\(Int(slider.value*9/5+32))ºF"
             
